@@ -1,24 +1,29 @@
+Travel Buddy - IFN636 Assessment 1.2 (n8750688)
 
-**Assessment 1.2 (Total Marks **20**)**
+**Setup Instructions**
+1. Clone the repository: `git clone https://github.com/n8750688/travelbuddy-ifn636.git`
+2. Install all dependencies: `npm run install-all`
+3. Create `backend/.env` with the following variables:
+   - MONGO_URI (MongoDB Atlas connection string)
+   - JWT_SECRET (JWT authentication secret)
+   - PORT (default: 5001)
+4. Run the application: `npm run dev`
 
-Assignment: **Software requirements analysis and design (**Full-Stack CRUD Application Development with DevOps Practices**)**
+**Public URL**
+http://16.176.179.141
 
+**Test Credentials**
+- Email: christian@email.com
+- Password: Password
 
----
+**Tech Stack**
+- **Backend:** Node.js, Express.js, MongoDB (Atlas)
+- **Frontend:** React.js, Tailwind CSS
+- **Deployment:** AWS EC2, Nginx, PM2
+- **CI/CD:** GitHub Actions (self-hosted runner)
 
-**Objective**
-
-For this assessment, you have already been assigned a project. Your task is to develop a system that implements CRUD (Create, Read, Update, Delete) operations based on the selected project. The system should include both a user panel and an admin panel. Depending on the nature of your chosen project, you may decide how many CRUD operations are required to support the functionality of the system. You have been provided with a starter project that includes user authentication using Node.js, React.js, and MongoDB, your should extend this application based on your assigned project requirements. Ensure that the implemented features are appropriate and meaningful for your selected project. Your project should include the following:
-In this assignment you will complete the following tasks:
-
-* **Basic Version Control using GitHub**
-* **Development, CI/CD Integration for Automated Deployment**
-* **Project report**
-
- 
----
-
-**GitHub link of the starter project: **[https://github.com/nahaQUT/sampleapp_IFQ636.git](https://github.com/nahaQUT/sampleapp_IFQ636.git)
-
----
-
+**Features**
+- User registration and authentication (JWT)
+- Create, Read, Update, Delete (CRUD) trip management
+- Profile management
+- Automated CI/CD deployment pipeline
